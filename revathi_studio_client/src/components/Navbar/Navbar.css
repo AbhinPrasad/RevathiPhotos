@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Gloock&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+.nav_container {
+	background-color: #191912;
+	height: 85px;
+	display: flex;
+}
+
+.left_nav-section {
+	width: 35%;
+	display: flex;
+	align-items: center;
+	position: relative;
+	left: 25px;
+}
+
+.left_nav-section > h2 {
+	font-family: "Gloock", serif;
+	color: white;
+	font-weight: 100;
+}
+
+.right_nav-section {
+	width: 65%;
+	height: 85px;
+}
+
+.right_nav-section ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.right_nav-section ul li{
+    display: flex;
+    position: relative;
+    top: 13px;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    position: relative;
+}
+
+.nav-link:hover{
+    color: #149629; 
+    transform: scale(1.1); /* scale up link */
+    transition: all 0.3s ease-in-out; /* add transition effect */
+}
+
+.nav-link.active {
+    text-decoration: none;
+    color: white;
+  }
+
+

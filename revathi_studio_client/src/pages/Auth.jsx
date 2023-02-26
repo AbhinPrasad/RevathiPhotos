@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import { Navbar } from "../components";
 
 const Auth = () => {
-  return (
-    <div>Auth</div>
-  )
-}
+	return (
+		<>
+			<Navbar />
+			Auth
+		</>
+	);
+};
 
-export default Auth
+export default Auth;

@@ -1,0 +1,21 @@
+/* body{
+  background-image: url(./assets/bg-cover.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  animation: scroll 60s linear infinite;
+  
+}
+
+@keyframes scroll {
+  0% {
+    background-position-y: 0;
+  }
+  100% {
+    background-position-y: 100%;
+  }
+} */
+
+body{
+  margin: 0;
+  padding: 0;
+}
